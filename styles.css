@@ -1,0 +1,76 @@
+
+*,
+html,
+
+body{
+    margin : 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+}
+.fContainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: lightslategray;
+}
+.wrappen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0,0,0, 0.5s);
+}
+.Breand{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+}
+.frastname{
+    color: aquamarine;
+    font-weight: 700;
+}
+.navitagion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.navitagion > li {
+    list-style-type: none;
+    padding: 15px;
+}
+.navitagion > li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navitagion>li>a:hover{
+    color: aquamarine;
+    transition: all .5s ease-in-out;
+}
+.navitagion>li>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.navitagion>li>img:hover{
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    transition: all .5s ease-in-out;
+}
+.Skill{
+    background-color: aquamarine;
+    color: white;
+    padding: 15px;
+}
+.Skill:hover{
+    color: white !important;
+}
